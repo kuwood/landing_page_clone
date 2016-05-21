@@ -1,3 +1,41 @@
-h1 {
-  color: red;
+div {
+  border: 1px solid chocolate;
+}
+
+
+.top-navigation {
+  height: 4.5em;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid black;
+  background-color: #FFF;
+}
+
+.top-navigation > .content {
+  height: 4.5em;
+  margin: 0 auto;
+  width: 45em;
+  box-sizing: border-box;
+  padding: 0px 15px;
+}
+
+.logo {
+  height: 3em;
+  vertical-align: baseline;
+  margin-top: 0.75em;
+}
+
+.top-navigation > .content > .links {
+  list-style: none;
+  float: right;
+  margin-top: 1.5em;
+}
+
+.top-navigation > .content > .links > li {
+  display: inline-block;
+  margin-left: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
 }
