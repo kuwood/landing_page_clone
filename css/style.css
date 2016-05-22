@@ -97,9 +97,7 @@ a {
     margin-top: -0.5em;
 }
 
-.buttons {
-
-}
+/** button stuff **/
 
 button {
     width: 9.688em;
@@ -116,4 +114,41 @@ button:hover {
     background-color: #d9400e;
     border-color: #cf3d0e;
     cursor: pointer;
+}
+
+/** cases **/
+
+.three-icon > .content {
+  padding-top: 10em;
+  text-align: center;
+}
+
+.three-icon .content .devices {
+  list-style: none;
+  width: 100%;
+}
+
+.three-icon .content .devices > li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+}
+
+.three-icon .content .devices li > img {
+  height: 12em;
+  padding: 2em;
+}
+
+.three-icon .content > h2 {
+  font-size: 2.75em;
+  margin-top: -0.5em;
+  font-weight: 300;
+  color: #1d1e21;
+}
+
+.three-icon .content .devices li > h3 {
+  font-size: 1.5em;
+  color: #1d1e21;
+  margin-top: -0.5em;
+  font-weight: 400;
 }
