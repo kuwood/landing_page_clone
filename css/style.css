@@ -11,6 +11,11 @@ html {
   box-sizing: inherit;
 }
 
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -93,27 +98,27 @@ a {
   font-size: 3em;
 }
 .introduction h3 {
-    font-size: 1.5em;
-    margin-top: -0.5em;
+  font-size: 1.5em;
+  margin-top: -0.5em;
 }
 
 /** button stuff **/
 
 button {
-    width: 9.688em;
-    background-color: #f15a29;
-    border-color: #f15a29;
-    text-shadow: none;
-    border-style: none;
-    border-radius: 4px;
-    padding: 1em 1.5em;
-    color: white;
-    font-size: 1.125em;
+  width: 9.688em;
+  background-color: #f15a29;
+  border-color: #f15a29;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 1em 1.5em;
+  color: white;
+  font-size: 1.125em;
 }
 button:hover {
-    background-color: #d9400e;
-    border-color: #cf3d0e;
-    cursor: pointer;
+  background-color: #d9400e;
+  border-color: #cf3d0e;
+  cursor: pointer;
 }
 
 /** cases **/
@@ -126,12 +131,13 @@ button:hover {
 .three-icon .content .devices {
   list-style: none;
   width: 100%;
+  padding-left: 0px;
 }
 
 .three-icon .content .devices > li {
   display: inline-block;
   text-align: center;
-  width: 30%;
+  width: 20%;
 }
 
 .three-icon .content .devices li > img {
@@ -151,4 +157,56 @@ button:hover {
   color: #1d1e21;
   margin-top: -0.5em;
   font-weight: 400;
+}
+
+/** footer **/
+
+.social {
+  padding-bottom: 10em;
+}
+
+.social > .content {
+  width: 60%;
+  text-align: center;
+}
+
+.social .content > hr {
+  border: 0;
+  border-top: 1px solid #d7d7d7;
+}
+
+.social h5 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.social .content  ul > li {
+  display: inline-block;
+  border-radius: 3em;
+  width: 2.1em;
+  height: 2.2em;
+  margin: 0.5em 0.5em;
+  border: 1px solid #d7d7d7;
+  padding: 0.5em 0;
+}
+
+.social .icons:hover {
+  cursor: pointer;
+}
+
+.social .twitter {
+  color: #55acee;
+}
+
+.social .facebook {
+  color: #4c66a4;
+}
+.social .instagram {
+  color: #3f729b;
+}
+
+.social .copy {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
 }
